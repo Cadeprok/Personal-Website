@@ -25,6 +25,8 @@ li{
     display:inline;
 }
 
-.temp{
-    background: red;
+.card-background{
+    background-color: black;
+    color: yellow;
+    text-align: center;
 }
