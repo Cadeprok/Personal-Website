@@ -48,5 +48,27 @@ h2{
     padding: 0px;
     margin: 0px; 
 }
+/* START OF CONTACT INFORMATION -- STILL IN ABOUT ME CARD */
+.contactInformation{
+    display: inline-flex;
+}
+i a{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px; 
+}
+/* ALL OF THE LOGOS -- RESIZED */
+.bi-github{
+    font-size: 22px; /* MAY NEED TO ADJUST THE SIZES OF ICONS IN FUTURE */
+}
+.bi-linkedin{
+    font-size: 22px;
+}
+.bi-telephone-fill{
+    font-size: 22px;
+}
+
+
 
 /* END OF ABOUT ME CARD */
