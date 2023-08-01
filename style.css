@@ -2,6 +2,7 @@ body {
     padding: 0 60px;
     background-color: rgb(24, 20, 20); 
     color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      
 }
 
@@ -20,13 +21,32 @@ a:hover{
 }
 ul{
     list-style-type: none;
+    align-items: start;
+    padding: 0 0 0 0px;
 }
 li{
+    align-items: start;
     display:inline;
+    padding: 0 0 0 0px;
+}
+/* THIS IS FOR ABOUT ME CARD -- BEG */
+h1{
+    font-size: 32px;
+    margin: 0 0px;
+}
+h2{
+    font-size: 22px;
 }
 
-.card-background{
-    background-color: black;
-    color: yellow;
-    text-align: center;
+.FLPSLink{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px; 
 }
+.MSULink{
+    font-size: 16px; 
+    padding: 0px;
+    margin: 0px; 
+}
+
+/* END OF ABOUT ME CARD */
