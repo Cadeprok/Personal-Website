@@ -1,5 +1,5 @@
 body {
-    padding: 0 60px;
+    padding: 0 220px;
     background-color: rgb(24, 20, 20); 
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,8 +30,20 @@ li{
     padding: 0 0 0 0px;
 }
 /* THIS IS FOR ABOUT ME CARD -- BEG */
+.location{
+    display: inline-flex;
+}
+.bi-geo-alt{
+    font-size: 22px;
+}
+.locationPicture{
+    padding-top: 20px;
+}
 h1{
     font-size: 32px;
+}
+h1 .job{
+    font-size: 28px;
     margin: 0 0px;
 }
 h2{
@@ -69,6 +81,15 @@ i a{
     font-size: 22px;
 }
 
-
-
 /* END OF ABOUT ME CARD */
+
+/*  START OF WORK EXPERIENCE SECTION */
+.workExperience{
+    font-size: 32px; 
+}
+.workExperience h4{
+    font-size: 32px;
+}
+.workImage{
+    width: 50px;
+}
