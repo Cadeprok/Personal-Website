@@ -93,3 +93,16 @@ i a{
 .workImage{
     width: 50px;
 }
+.workLogoTitle{
+    display: inline-flex; 
+}
+h5{
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+h6{
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
