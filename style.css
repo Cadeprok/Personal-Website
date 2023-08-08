@@ -201,3 +201,27 @@ h6{
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 1000px){
+    body{
+        padding: 0 50px; /*  TEMPORARY SINCE IT LOOKED WACKY */
+    }
+}
+
+@media screen and (max-width: 1280px){
+    body{
+        padding: 0 200px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .projectCardStyling{
+        position: initial;
+    }
+    .projectImg{
+        position: initial; 
+        width: 300px;
+        height: 90%;
+    }
+
+}
