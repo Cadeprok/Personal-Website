@@ -248,6 +248,12 @@ h6{
         height: 110%;
     }
 }
+@media screen and (max-width: 375px){
+    .projectCard a {
+        display: block; 
+        padding: 1px; 
+    }
+}
 @media screen and (max-width: 280px){
     li{
         padding: 0 0 0 0px;
