@@ -174,7 +174,59 @@ h6{
     height: 80px; 
     width: 80px; 
 }
+@media screen and (max-width: 1280px){
+    body{
+        padding: 0 200px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .projectCardStyling{
+        position: initial;
+    }
+    .projectImg{
+        position: initial; 
+        width: 300px;
+        height: 90%;
+    }
+}
 
+@media screen and (max-width: 1024px){
+    body{
+        padding: 0 50px; /*  TEMPORARY SINCE IT LOOKED WACKY */
+    }
+}
+@media screen and (max-width: 412px){
+    li a{
+        padding: 0px;
+        margin: 0px;
+        display: contents;
+    }
+    h5{
+        font-size: 16px;
+        text-align: center;
+    }
+    h6{
+        font-size: 14px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+    }
+    .projectImg{
+        position: relative;
+        left: -60;
+        right: 0px;
+        width: 220;
+        height: 100%; 
+    }
+    .projectCard a{
+        display: -webkit-inline-box;
+    }
+    .projectP{
+        font-size: 12px;
+    }
+}
 @media screen and (max-width: 280px){
     body{
         padding: 0 0px;
@@ -202,26 +254,4 @@ h6{
     }
 }
 
-@media screen and (max-width: 1024px){
-    body{
-        padding: 0 50px; /*  TEMPORARY SINCE IT LOOKED WACKY */
-    }
-}
 
-@media screen and (max-width: 1280px){
-    body{
-        padding: 0 200px;
-    }
-    p{
-        font-size: 20px;
-    }
-    .projectCardStyling{
-        position: initial;
-    }
-    .projectImg{
-        position: initial; 
-        width: 300px;
-        height: 90%;
-    }
-
-}
