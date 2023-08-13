@@ -194,7 +194,11 @@ h6{
         bottom: 10;
     }
 }
-
+@media screen and (min-width: 1281px) and (max-width: 1350px){
+    .projectImg{
+        position: initial;
+    }
+}
 @media screen and (max-width: 1024px){
     body{
         padding: 0 50px; /*  TEMPORARY SINCE IT LOOKED WACKY */
@@ -295,6 +299,7 @@ h6{
         width: 110px;
     }
 }
+
 @media screen and (max-width: 280px){
     li{
         padding: 0 0 0 0px;
