@@ -175,6 +175,9 @@ h6{
     width: 80px; 
 }
 @media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1280px){
     body{
         padding: 0 200px;
     }
@@ -185,9 +188,10 @@ h6{
         position: initial;
     }
     .projectImg{
-        position: initial; 
+        position: relative;
         width: 300px;
-        height: 90%;
+        height: 100%;
+        bottom: 10;
     }
 }
 
