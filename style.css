@@ -198,7 +198,11 @@ h6{
 }
 @media screen and (max-width: 575px){
     .projectImg{
-        width: 250px; 
+        width: 200px;
+        height: 90%;
+        position: relative;
+        left: -60px;
+        top: 0px;
     }
 }
 @media screen and (max-width: 505px){
