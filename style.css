@@ -196,6 +196,24 @@ h6{
         padding: 0 50px; /*  TEMPORARY SINCE IT LOOKED WACKY */
     }
 }
+@media screen and (max-width: 575px){
+    .projectImg{
+        width: 250px; 
+    }
+}
+@media screen and (max-width: 505px){
+    li a{
+        padding: 0px;
+        margin: 0px;
+        display: contents;
+    }
+    .projectImg{
+        position: relative;
+        width: 150px;
+        left: -60;
+        height: 80%;
+    }
+}
 @media screen and (max-width: 412px){
     li a{
         padding: 0px;
@@ -253,6 +271,9 @@ h6{
         display: block; 
         padding: 1px; 
     }
+}
+@media screen and (max-width: 280px){
+
 }
 @media screen and (max-width: 280px){
     li{
