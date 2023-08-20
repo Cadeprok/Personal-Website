@@ -174,3 +174,160 @@ h6{
     height: 80px; 
     width: 80px; 
 }
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1280px){
+    body{
+        padding: 0 200px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .projectCardStyling{
+        position: initial;
+    }
+    .projectImg{
+        position: relative;
+        width: 300px;
+        height: 100%;
+        bottom: 10;
+    }
+}
+@media screen and (min-width: 1281px) and (max-width: 1350px){
+    .projectImg{
+        position: initial;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        padding: 0 50px; /*  TEMPORARY SINCE IT LOOKED WACKY */
+    }
+}
+@media screen and (max-width: 575px){
+    .projectImg{
+        width: 200px;
+        height: 90%;
+        position: relative;
+        left: -60px;
+        top: 0px;
+    }
+}
+@media screen and (max-width: 505px){
+    li a{
+        padding: 0px;
+        margin: 0px;
+        display: contents;
+    }
+    .projectImg{
+        position: relative;
+        width: 150px;
+        left: -60;
+        height: 80%;
+    }
+}
+@media screen and (max-width: 412px){
+    li a{
+        padding: 0px;
+        margin: 0px;
+        display: contents;
+    }
+    h5{
+        font-size: 16px;
+        text-align: center;
+    }
+    h6{
+        font-size: 14px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+    }
+    .projectImg{
+        position: relative;
+        left: -60;
+        right: 0px;
+        width: 180px;
+        height: 100%; 
+    }
+    .projectCard a{
+        display: -webkit-inline-box;
+    }
+    .projectP{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 393px){
+    li{
+        padding: 5 10 5 5px;
+    }
+    .contactInfo a{
+        display: contents;
+        margin: 5px;
+        padding: 5px;
+    }
+    h4{
+        padding: 10px;
+        margin: 0px;
+    }
+    .projectCard a{
+        font-size: 20px;
+    }
+    .projectImg{
+        width: 155;
+        height: 110%;
+    }
+}
+@media screen and (max-width: 375px){
+    .projectCard a {
+        display: block; 
+        padding: 1px; 
+    }
+}
+@media screen and (max-width: 350px){
+    .projectImg{
+        width: 130px;
+        height: 100%;
+    }
+    li{
+        padding: 5 5 0 0px;
+    }
+}
+@media screen and (max-width: 330px){
+    .projectImg{
+        height: 90%;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    li{
+        padding: 0 0 0 0px;
+    }
+    body{
+        padding: 0 0px;
+        position: relative;
+        left: 50px; 
+    } a {
+        display:inline;
+
+    }
+    .projectCardStyling{
+        display:block;
+        position: initial;
+    }
+    .projectImg{
+        width: 200px;
+        height: 150px; 
+        display:block;
+        left: -80px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px; 
+    }
+    .projectCard a{
+        font-size: 20px;
+    }
+}
+
+
