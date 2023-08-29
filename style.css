@@ -204,8 +204,42 @@ h6{
         padding: 0 50px; /*  TEMPORARY SINCE IT LOOKED WACKY */
     }
 }
+@media screen and (max-width: 768px){
+/* FONT SIZE */
+}
 @media screen and (max-width: 575px){
-
+    h1{
+        text-align:center; 
+    }
+    .projects{
+        margin: 25 0px;
+    }
+    .projectCardStyling {
+        display: contents;
+    }
+    h5{
+        font-size: 20px; 
+    }
+    h6{
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .workExperience{
+        margin: 25 0px;
+    }
+    .activities{
+        margin: 25px 0;
+    }
+    .sideImages{
+        width: 0;
+        height: 0;
+    }
+    .projectImg{
+        width: 0;
+        height: 0;
+    }
 }
 @media screen and (max-width: 505px){
     li a{
