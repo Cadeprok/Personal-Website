@@ -205,25 +205,13 @@ h6{
     }
 }
 @media screen and (max-width: 575px){
-    .projectImg{
-        width: 200px;
-        height: 90%;
-        position: relative;
-        left: -60px;
-        top: 0px;
-    }
+
 }
 @media screen and (max-width: 505px){
     li a{
         padding: 0px;
         margin: 0px;
         display: contents;
-    }
-    .projectImg{
-        position: relative;
-        width: 150px;
-        left: -60;
-        height: 80%;
     }
 }
 @media screen and (max-width: 412px){
@@ -242,13 +230,6 @@ h6{
     }
     p{
         font-size: 14px;
-    }
-    .projectImg{
-        position: relative;
-        left: -60;
-        right: 0px;
-        width: 180px;
-        height: 100%; 
     }
     .projectCard a{
         display: -webkit-inline-box;
@@ -273,10 +254,6 @@ h6{
     .projectCard a{
         font-size: 20px;
     }
-    .projectImg{
-        width: 155;
-        height: 110%;
-    }
 }
 @media screen and (max-width: 375px){
     .projectCard a {
@@ -285,19 +262,11 @@ h6{
     }
 }
 @media screen and (max-width: 350px){
-    .projectImg{
-        width: 130px;
-        height: 100%;
-    }
     li{
         padding: 5 5 0 0px;
     }
 }
 @media screen and (max-width: 330px){
-    .projectImg{
-        height: 90%;
-        width: 110px;
-    }
 }
 
 @media screen and (max-width: 280px){
@@ -315,15 +284,6 @@ h6{
     .projectCardStyling{
         display:block;
         position: initial;
-    }
-    .projectImg{
-        width: 200px;
-        height: 150px; 
-        display:block;
-        left: -80px;
-        right: 0px;
-        top: 0px;
-        bottom: 0px; 
     }
     .projectCard a{
         font-size: 20px;
