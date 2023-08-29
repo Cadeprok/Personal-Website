@@ -248,28 +248,42 @@ h6{
         display: contents;
     }
 }
-@media screen and (max-width: 412px){
+@media screen and (max-width: 414px){
+    
     li a{
         padding: 0px;
         margin: 0px;
         display: contents;
     }
     h5{
-        font-size: 16px;
-        text-align: center;
+        font-size: 20px;
+        text-align: start;
     }
     h6{
-        font-size: 14px;
-        text-align: center;
+        font-size: 20px;
+        text-align: start;
     }
     p{
-        font-size: 14px;
+        font-size: 16px;
     }
+    .projectp{
+        font-size: 16px;
+    }
+
+
+    .projects{
+        margin: 20px 0; 
+    }
+    .activities{
+        margin: 20px 0; 
+    }
+    .workExperience{
+        margin: 20px 0;
+    }
+
     .projectCard a{
         display: -webkit-inline-box;
-    }
-    .projectP{
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 393px){
