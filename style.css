@@ -108,6 +108,7 @@ h6{
 }
 .move{
     margin-left: 10px; 
+    font-size: 18px; 
 }
 
 /* END OF WORK EXPERIENCE SECTION */
@@ -253,10 +254,9 @@ h6{
 }
 @media screen and (max-width: 414px){
     
-    li a{
-        padding: 0px;
+    li{
+        padding: 0 50 0 0px;
         margin: 0px;
-        display: contents;
     }
     h5{
         font-size: 20px;
@@ -287,6 +287,9 @@ h6{
     .projectCard a{
         display: -webkit-inline-box;
         font-size: 20px;
+    }
+    .move{
+        margin-left: 0px;
     }
 }
 @media screen and (max-width: 393px){
