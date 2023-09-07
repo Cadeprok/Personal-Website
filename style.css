@@ -149,9 +149,7 @@ h6{
     left: 100px; 
 }
 .projectCard a{
-    font-size: 24px;
-    margin: -1px;
-    padding: 0px;
+    display: block; 
 }
 .projectLogoStyle{
     width: 50px;
@@ -180,6 +178,9 @@ h6{
 .sideImages{
     height: 80px; 
     width: 80px; 
+}
+.rightSide{
+    padding-right: 16px; 
 }
 @media screen and (max-width: 1420px){
     a{
