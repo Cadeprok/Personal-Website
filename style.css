@@ -9,8 +9,7 @@ body {
 a{
     color: white;
     font-size: 32px;
-    padding: 16px;
-    margin: 16px;
+    padding-right: 100px;
     text-decoration: none; 
     display: inline-block;
     margin-top: 16px;
@@ -147,8 +146,7 @@ h6{
 }
 .projectCard a{
     font-size: 24px;
-    margin: 5px;
-    padding: 0px;
+    display:block;
 }
 .projectLogoStyle{
     width: 50px;
