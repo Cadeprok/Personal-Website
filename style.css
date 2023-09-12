@@ -2,18 +2,21 @@ body {
     padding: 0 350px;
     background-color: rgb(24, 20, 20); 
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'poppins';
      
 }
 
 a{
     color: white;
     font-size: 32px;
-    padding: 16px;
-    margin: 16px;
+    padding-right: 100px;
     text-decoration: none; 
     display: inline-block;
     margin-top: 16px;
+}
+
+p{
+    font-weight: 100;
 }
 
 a:hover{
@@ -66,7 +69,7 @@ h2{
 }
 i a{
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'poppins';
     padding: 0px;
     margin: 0px; 
 }
@@ -146,9 +149,7 @@ h6{
     left: 100px; 
 }
 .projectCard a{
-    font-size: 24px;
-    margin: 5px;
-    padding: 0px;
+    display: block; 
 }
 .projectLogoStyle{
     width: 50px;
@@ -178,8 +179,13 @@ h6{
     height: 80px; 
     width: 80px; 
 }
-@media screen and (max-width: 1280px){
-
+.rightSide{
+    padding-right: 16px; 
+}
+@media screen and (max-width: 1420px){
+    a{
+        display: block;
+    }
 }
 @media screen and (max-width: 1280px){
     body{
