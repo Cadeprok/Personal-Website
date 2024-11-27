@@ -63,6 +63,9 @@ h2{
     padding: 0px;
     margin: 0px; 
 }
+.MSU{
+    background-color: white;
+}
 /* START OF CONTACT INFORMATION -- STILL IN ABOUT ME CARD */
 .contactInformation{
     display: inline-flex;
@@ -149,7 +152,9 @@ h6{
     left: 100px; 
 }
 .projectCard a{
-    display: block; 
+    font-size: 24px;
+    margin: 5px;
+    padding: 0px;
 }
 .projectLogoStyle{
     width: 50px;
@@ -172,8 +177,7 @@ h6{
     left: 0px; 
     right: 0px;
     width: 350px;
-    height: 100%;
-    /* CENTER THIS */ 
+    /*height: 100%;*/
 }
 .sideImages{
     height: 80px; 
@@ -349,5 +353,7 @@ h6{
         font-size: 20px;
     }
 }
+
+
 
 
